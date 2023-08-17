@@ -61,9 +61,11 @@
            }
            #five{
             border-radius: 15%;
-            margin-left: 73%;
-           
-            margin-right: 25%;
+            margin-left: 40%;
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            /* margin-right: 25%; */
             
            }
            ul,li{
@@ -86,9 +88,15 @@
         }
         
     </style>
+    
 </head>
 <body>
-
+   
+<script>
+   function submit(){
+        window.location.href ="https://sagarbandaru.github.io/tq.html"
+    }
+</script>
     <header>
         <p>CONTACT ME</p>
     </header>
@@ -117,10 +125,14 @@
             <label for="msg">Message</label>
 
         <input id="four" type="text" name="msg" fdprocessedid="ycekx">
+        <div>
+            <button id="five" onclick="submit()">submit</button>
+        </div>          
     </div>
       
+    
 
-        <a id="five" href="http://127.0.0.1:5500/tq.html"><li>SUBMIT</li></a>
+        <!-- <a id="five" href="https://sagarbandaru.github.io/tq.html"><li>SUBMIT</li></a> -->
         
     
 
